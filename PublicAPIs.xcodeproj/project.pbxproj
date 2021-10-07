@@ -56,15 +56,47 @@
 		F424F997270F3DBA00C78D44 /* PublicAPIs */ = {
 			isa = PBXGroup;
 			children = (
-				F424F998270F3DBA00C78D44 /* AppDelegate.swift */,
-				F424F99A270F3DBA00C78D44 /* SceneDelegate.swift */,
-				F424F99C270F3DBA00C78D44 /* ViewController.swift */,
-				F424F99E270F3DBA00C78D44 /* Main.storyboard */,
-				F424F9A1270F3DBB00C78D44 /* Assets.xcassets */,
-				F424F9A3270F3DBB00C78D44 /* LaunchScreen.storyboard */,
-				F424F9A6270F3DBB00C78D44 /* Info.plist */,
+				F424F9B0270F427100C78D44 /* SuppotringFiles */,
+				F424F9AD270F421600C78D44 /* ViewControllers */,
+				F424F9AC270F3E0200C78D44 /* Storyboards */,
+				F424F9AF270F425F00C78D44 /* Sourse */,
 			);
 			path = PublicAPIs;
+			sourceTree = "<group>";
+		};
+		F424F9AC270F3E0200C78D44 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F424F99E270F3DBA00C78D44 /* Main.storyboard */,
+				F424F9A3270F3DBB00C78D44 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F424F9AD270F421600C78D44 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F424F99C270F3DBA00C78D44 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F424F9AF270F425F00C78D44 /* Sourse */ = {
+			isa = PBXGroup;
+			children = (
+				F424F9A1270F3DBB00C78D44 /* Assets.xcassets */,
+			);
+			path = Sourse;
+			sourceTree = "<group>";
+		};
+		F424F9B0270F427100C78D44 /* SuppotringFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F424F998270F3DBA00C78D44 /* AppDelegate.swift */,
+				F424F99A270F3DBA00C78D44 /* SceneDelegate.swift */,
+				F424F9A6270F3DBB00C78D44 /* Info.plist */,
+			);
+			path = SuppotringFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,10 +323,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z88UC283VS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PublicAPIs/Info.plist;
+				INFOPLIST_FILE = PublicAPIs/SuppotringFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +339,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,10 +352,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z88UC283VS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PublicAPIs/Info.plist;
+				INFOPLIST_FILE = PublicAPIs/SuppotringFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +368,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
