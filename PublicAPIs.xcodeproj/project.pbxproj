@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42072552710A2A500E9C9E9 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42072542710A2A500E9C9E9 /* InfoViewController.swift */; };
 		F424F999270F3DBA00C78D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F424F998270F3DBA00C78D44 /* AppDelegate.swift */; };
 		F424F99B270F3DBA00C78D44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F424F99A270F3DBA00C78D44 /* SceneDelegate.swift */; };
 		F424F99D270F3DBA00C78D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F424F99C270F3DBA00C78D44 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F42072542710A2A500E9C9E9 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		F424F995270F3DBA00C78D44 /* PublicAPIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublicAPIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F424F998270F3DBA00C78D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F424F99A270F3DBA00C78D44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				F424F99C270F3DBA00C78D44 /* ViewController.swift */,
 				F424F9B7270F56B500C78D44 /* TableViewController.swift */,
+				F42072542710A2A500E9C9E9 /* InfoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				F424F99D270F3DBA00C78D44 /* ViewController.swift in Sources */,
 				F424F9B8270F56B500C78D44 /* TableViewController.swift in Sources */,
 				F424F999270F3DBA00C78D44 /* AppDelegate.swift in Sources */,
+				F42072552710A2A500E9C9E9 /* InfoViewController.swift in Sources */,
 				F424F9B5270F52CB00C78D44 /* NetworkManager.swift in Sources */,
 				F424F99B270F3DBA00C78D44 /* SceneDelegate.swift in Sources */,
 				F424F9B2270F42DA00C78D44 /* PublicAPIs.swift in Sources */,
